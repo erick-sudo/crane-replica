@@ -63,7 +63,7 @@ dependencies {
     implementation(libs.androidx.material3)
 
     // Room Dependencies
-    implementation(libs.androidx.room.compiler)
+    annotationProcessor(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.runtime)
 
